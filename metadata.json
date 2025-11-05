@@ -1,0 +1,5 @@
+{
+  "name": "MedicoMetasearch",
+  "description": "An AI-powered medical metasearch engine. It uses Gemini to query and summarize information from reliable online medical sources, providing users with consolidated results and source links for further research.",
+  "requestFramePermissions": []
+}
