@@ -4,7 +4,7 @@ import { SearchResult, GroundingChunk } from '../types';
 // **CAMBIO CLAVE:**
 // 1. Usa 'import.meta.env' para proyectos Vite/React.
 // 2. Usa el prefijo 'VITE_' porque así es como Netlify expone la variable.
-const API_KEY = import.meta.env.VITE_GEMINI_API_KEY; 
+const API_KEY = process.env.GEMINI_API_KEY; 
 
 // Comprobación de la clave API (Mensaje de error actualizado para ser útil)
 if (!API_KEY) {
